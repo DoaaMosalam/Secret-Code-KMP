@@ -1,4 +1,4 @@
-package com.doaa.mosalam.composeApp.compose
+package com.doaa.mosalam.composeApp.Util
 
 import androidx.compose.ui.graphics.Color
 

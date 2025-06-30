@@ -1,14 +1,10 @@
 package com.doaa.mosalam.shared.compose
 
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.graphics.Color
-import com.doaa.mosalam.composeApp.compose.AppColors
+import com.doaa.mosalam.composeApp.Util.AppColors
 
 @Composable
 fun DropdownSelector(options: List<String>, selected: String, onOptionSelected: (String) -> Unit) {
