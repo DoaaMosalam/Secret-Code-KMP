@@ -7,10 +7,11 @@ import androidx.compose.runtime.Composable
 import com.doaa.mosalam.composeApp.Util.AppColors
 
 @Composable
-fun DropdownSelector(options: List<String>, selected: String, onOptionSelected: (String) -> Unit) {
+fun DropdownSelector(options: List<String>, selected: String, onOptionSelected: (String) -> Unit,
+                    ) {
     var expanded by remember { mutableStateOf(false) }
     Box {
-        Button(onClick = { expanded = true },
+        Button(onClick = { expanded = true }
 //            modifier = Modifier.background(AppColors.btnRandomandLan),
 //            colors = ButtonDefaults.buttonColors(backgroundColor = AppColors.btnRandomandLan)
         )

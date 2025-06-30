@@ -14,24 +14,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.doaa.mosalam.composeApp.Util.FileDialogUtil
 
-/*
-*
-* Text(text["chooseFile"] ?: "", fontWeight = FontWeight.SemiBold)
-                Row(verticalAlignment = Alignment.CenterVertically) {
-                    TextField(
-                        value = studentFilePath,
-                        onValueChange = { studentFilePath = it },
-                        modifier = Modifier.weight(1f),
-                        placeholder = { Text("students.csv") }
-                    )
-                    Spacer(modifier = Modifier.width(8.dp))
-                    Button(onClick = {
-                        val file = FileDialogUtil.pickFile()
-                        if (file != null) studentFilePath = file.absolutePath
-                    }) { Text("...") }
-                }
-
-*  */
 @Composable
 fun LabeledFilePicker(
     label: String,
