@@ -13,18 +13,6 @@ import assignShuffledOrderedGroups
 import com.doaa.mosalam.composeApp.Ui.HomeApp
 
 fun generateCode() = application {
-//    Window(
-//        onCloseRequest = ::exitApplication,
-//        title = "Student Grouping",
-//        state = rememberWindowState(width = 800.dp, height =750.dp)
-//    ) {
-//        HomeApp() // ← واجهة المستخدم
-//
-//    }
-
-//    Window(onCloseRequest = ::exitApplication, title = "Student Grouping") {
-//        App() // ← واجهة المستخدم
-//    }
 
     /*
     * folder path
@@ -61,7 +49,7 @@ fun generateCode() = application {
         61..80 to 8,
         101..120 to 9,
         81..100 to 10,
-        197..220 to 11, // 🆕 أضفنا رينج لطلاب 201 إلى 212 مثلًا
+
     )
 //    assignGroupsBySeatRanges(students, groupRanges)
 //    assignOrderedSecretCodes(students, startCode = 501)
@@ -72,8 +60,8 @@ fun generateCode() = application {
 
     assignShuffledOrderedGroups(
         students = students,
-        groupSize = groupSize, // Number of students in each group,          // عدد الطلاب في كل مجموعة
-        startSecretCode = 501   // الرقم السري يبدأ من هنا
+        groupSize = groupSize, // Number of students in each group,
+        startSecretCode = 501
     )
 
     println("\n📋 النتائج:")

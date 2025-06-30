@@ -12,11 +12,9 @@ fun main() = application {
         title = "Student Grouping",
         state = rememberWindowState(width = 800.dp, height =750.dp)
     ) {
-        HomeApp() // ← واجهة المستخدم
+        HomeApp()
+
     }
-    /*
-     * folder path
-     * */
 //    generateCode()
 
 }

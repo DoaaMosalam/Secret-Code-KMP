@@ -14,21 +14,16 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
-import androidx.compose.ui.window.Window
-import androidx.compose.ui.window.application
-import androidx.compose.ui.window.rememberWindowState
 import assignGroups
 import assignGroupsBySeatRanges
 import assignOrderedSecretCodes
 import assignRandomSecretCodes
 import assignShuffledOrderedGroups
-import com.doaa.mosalam.composeApp.compose.AppColors
+import com.doaa.mosalam.composeApp.Util.AppColors
 import com.doaa.mosalam.composeApp.compose.ShowDialogeAlert
 import com.doaa.mosalam.shared.compose.DropdownSelector
 import com.doaa.mosalam.shared.compose.LabeledFilePicker
 import org.jetbrains.compose.ui.tooling.preview.Preview
-import java.awt.Desktop
-import java.io.File
 
 @Composable
 @Preview
