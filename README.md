@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/4f6f58cf-a9ce-4543-99c4-dd80dd75490f)<head> 
-    <body>
+ 
  <h1># 🎓 Student Grouping & Secret Code Generator </h1>
    <p align="center">
    <img src= "https://github.com/user-attachments/assets/e7afa29b-2159-49f0-90be-e1316cf3cd77" width="400" height="500" alt="Secret Code"/>
@@ -60,7 +59,51 @@
 ابانوب جرجس ملاك سامى,1,فرنسي,مسيـحى,8,771
 احمد علي سليم علي,2,الماني,مسـلم,8,772
 ```
+## 🛠️ Installation
+✅ Steps to install on Windows:
+1.Download the .exe installer from the folder:
+```
+C:\Users\<YourName>\AppData\Local\Programs\Secret Code\
+```
+2.Run the file Secret Code-1.0.0.exe (or the name of the version you built).
 
+3.Follow the installation steps (Next → Install).
+
+4.By default, the program is installed in:
+```
+C:\Users\<YourName>\AppData\Local\Programs\Secret Code\
+```
+You can search for "Secret Code" in the Start Menu and launch it directly.
+
+## ⚙️ If building from source:
+Run the following command:
+```
+./gradlew packageReleaseDistributionForCurrentOS
+```
+This will generate the .exe installer inside:
+```
+composeApp/build/compose/binaries/main/exe/
+```
+## 🚀 Usage
+1.Open the app.
+
+2.Select the student CSV file.
+
+3.Choose the output location for the generated file.
+
+4.Enter the secret code start number and choose a grouping mode.
+
+5.Click "✅ Execute".
+A confirmation dialog will appear, and you can open the result folder directly.
+
+## 💡 System Requirements
+- Java 17 or newer
+
+- Currently supports Windows OS only
+
+- Built using Kotlin Multiplatform + Compose Desktop
+  
+## video from app
 
 https://github.com/user-attachments/assets/1f73d63e-a890-4684-8fbc-1b5221e9759c
 
