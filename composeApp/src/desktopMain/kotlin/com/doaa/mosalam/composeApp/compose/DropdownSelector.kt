@@ -3,8 +3,7 @@ package com.doaa.mosalam.shared.compose
 import androidx.compose.foundation.layout.Box
 import androidx.compose.material.*
 import androidx.compose.runtime.*
-import androidx.compose.runtime.Composable
-import com.doaa.mosalam.composeApp.Util.AppColors
+import com.doaa.mosalam.shared.Util.AppColors
 
 @Composable
 fun DropdownSelector(options: List<String>, selected: String, onOptionSelected: (String) -> Unit,

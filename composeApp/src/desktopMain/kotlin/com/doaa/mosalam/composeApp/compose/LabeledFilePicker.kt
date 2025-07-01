@@ -12,7 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import com.doaa.mosalam.composeApp.Util.FileDialogUtil
+import com.doaa.mosalam.shared.Util.FileDialogUtil
 
 @Composable
 fun LabeledFilePicker(

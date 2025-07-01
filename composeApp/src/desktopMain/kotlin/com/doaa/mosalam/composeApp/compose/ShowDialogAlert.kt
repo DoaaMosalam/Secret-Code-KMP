@@ -5,7 +5,7 @@ import androidx.compose.material.Button
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.MutableState
-import com.doaa.mosalam.composeApp.Util.AppColors
+import com.doaa.mosalam.shared.Util.AppColors
 import java.awt.Desktop
 import java.io.File
 

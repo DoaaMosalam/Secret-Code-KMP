@@ -1,6 +1,5 @@
 package com.doaa.mosalam.composeApp
 
-import androidx.compose.material.Icon
 import androidx.compose.ui.input.key.key
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Window
@@ -29,11 +28,6 @@ fun main() = application {
         val icon = Toolkit.getDefaultToolkit().getImage("src/commonMain/composeResources/drawable/icon.png")
         window.iconImage = icon
 
-
-        // val iconImage = ImageIO.read(File("src/main/resources/icon.png"))
-        // window.iconImage = iconImage
-
         HomeApp()
     }
-//    generateCode()
 }
