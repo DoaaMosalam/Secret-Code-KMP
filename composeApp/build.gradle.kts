@@ -116,9 +116,22 @@ compose.desktop {
 //        mainClass = "MainKt"
         mainClass = "com.doaa.mosalam.composeApp.MainKt"
         nativeDistributions {
-            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
+            targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb,
+                TargetFormat.Exe)
+
             packageName = "com.doaa.mosalam"
             packageVersion = "1.0.0"
+            description = "Student Grouping Application"
+            vendor = "Doaa Mosalam"
+            windows {
+                iconFile.set(project.file("src/commonMain/composeResources/drawable/icon.ico"))
+            }
+            linux {
+                iconFile.set(project.file("src/commonMain/composeResources/drawable/icon.ico"))
+            }
+            macOS {
+                iconFile.set(project.file("src/commonMain/composeResources/drawable/icon.ico"))
+            }
         }
     }
 }
