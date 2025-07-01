@@ -1,5 +1,4 @@
-![image](https://github.com/user-attachments/assets/4f6f58cf-a9ce-4543-99c4-dd80dd75490f)<head> 
-    <body>
+ 
  <h1># 🎓 Student Grouping & Secret Code Generator </h1>
    <p align="center">
    <img src= "https://github.com/user-attachments/assets/e7afa29b-2159-49f0-90be-e1316cf3cd77" width="400" height="500" alt="Secret Code"/>
